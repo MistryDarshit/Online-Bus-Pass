@@ -4,7 +4,7 @@ import './email.css'
 const Email = () => {
   return (
     <div>
-      
+      Email
     </div>
   )
 }

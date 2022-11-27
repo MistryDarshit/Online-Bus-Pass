@@ -4,32 +4,30 @@ import {logo} from './import'
 
 const Navbar = () => {
   return (
-    <>
-    <div className="_nav-container">
-      <div className="_nav-img">
-        <img src={logo} alt="" />
-      </div>
-    <div className="_nav-links">
-      <div className="_nav-text">
-      <p className="_nav-p1">
+   <div className='__nav-container'>
+    <div className="__nav-logo">
+      <img src={logo} alt="" />
+    </div>
+    <div className="__nav-links">
+      <p className='__nav-home'>
         <a href="#">HOME</a>
       </p>
-      <p className="_nav-p2">
-        <a href="#">USER RAGISTRETION</a>
+      <p className='__nav-reg'>
+      <a href="#">USER RAGISTRETION</a>
       </p>
-      <p className="_nav-p3">
+      <p className='__nav-about'>
         <a href="#">ABOUT US</a>
       </p>
-      <p className="_nav-p4">
+      <p className='__nav-contect'>
         <a href="#">CONTECT US</a>
-      </p>
-      </div>
+      </p>    
     </div>
-      <div className="_nav-button">
-        <a href="/">LOGIN</a>
-      </div>
+    <div className="__nav_button">
+      <button className='__nav_button-login'><a href="#">
+        LOGIN
+        </a></button>
     </div>
-    </>
+   </div>
   )
 }
 

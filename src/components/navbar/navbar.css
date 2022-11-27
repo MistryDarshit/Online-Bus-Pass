@@ -1,98 +1,48 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-shadow: border-box;
-}
-
-body {
+.__nav-container{
+    height: 13vh;
     background-color: black;
 }
-
-._nav-container {
+.__nav-logo{
+    position: relative;
     display: flex;
-    flex-direction: row;
-}
-
-._nav-img {
-
-    position: absolute;
-    width: 139px;
-    height: 48px;
+    flex-direction: row; 
+    justify-content: left;   
+    align-items: center;
+    top: 29px;
     left: 104px;
-    top: 21px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 39px;
 }
-
-._nav-text {
-    flex: 1;
+.__nav-links{
+    color: white;
     display: flex;
     flex-direction: row;
-    font-family: var(--font-family);
+    justify-content: center;
+    left: 200px;
+    top: 8px;
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+}
+.__nav-reg,
+.__nav-about,
+.__nav-contect{
+    padding-left: 60px;
+    position: relative;
+}
+.__nav_button{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 25px;
+    right: 35px;
+}
+.__nav_button-login{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 28px;
+    padding-right: 28px;
     color: white;
-
-}
-
-._nav-p1 {
-    position: absolute;
-    width: 48px;
-    height: 19px;
-    left: 600px;
-    top: 36px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-}
-
-._nav-p2 {
-    position: absolute;
-    width: 162px;
-    height: 19px;
-    left: 708px;
-    top: 36px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-
-}
-
-._nav-p3 {
-    position: absolute;
-    width: 83px;
-    height: 19px;
-    left: 930px;
-    top: 36px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-}
-
-._nav-p4 {
-    position: absolute;
-    width: 105px;
-    height: 19px;
-    left: 1073px;
-    top: 36px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-}
-._nav-button{
-    position: absolute;
-    width: 105px;
-    height: 43px;
-    left: 1330px;
-    top: 24px;
     background: #FF3838;
     border: 1px solid #000000;
     border-radius: 8px;
-}
-._nav-button a{
-   color: white;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   padding-top: 10px;
+
 }
