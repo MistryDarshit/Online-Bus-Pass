@@ -1,7 +1,7 @@
 import React from 'react'
-import './signup.css'
+import './card3.css'
 
-const Signup = () => {
+const Card3 = () => {
   return (
     <div>
       
@@ -9,4 +9,4 @@ const Signup = () => {
   )
 }
 
-export default Signup
+export default Card3

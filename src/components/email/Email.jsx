@@ -1,7 +1,7 @@
 import React from 'react'
-import './signup.css'
+import './email.css'
 
-const Signup = () => {
+const Email = () => {
   return (
     <div>
       
@@ -9,4 +9,4 @@ const Signup = () => {
   )
 }
 
-export default Signup
+export default Email
