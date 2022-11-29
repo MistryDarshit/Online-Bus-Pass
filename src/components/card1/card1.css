@@ -39,3 +39,31 @@
 .__card1_container-button:hover{
     cursor: pointer;
 }
+.__card1_container-img{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+}
+.__card1_red{
+    width: 17.5rem;
+    height: 17.5rem;
+    position: relative;
+    border: 1px solid #000000;
+    background-color: #FF3838;
+    border-radius: 50%;
+    filter: blur(9.9rem);
+    right: 0.6rem;
+    top: 7rem;
+}
+.__card1_card_main{
+    width: 550px;
+    height: 350px;
+    background-color: rgba(217, 217, 217, 0.08);
+    mix-blend-mode: var(--blind);
+    border-radius: 3.1rem;
+}   
+.__card1_container-card{
+    position: relative;
+    right: 10.7rem;
+    bottom: 13rem;
+}

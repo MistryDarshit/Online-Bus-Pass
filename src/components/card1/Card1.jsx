@@ -1,6 +1,6 @@
 import React from 'react'
 import './card1.css'
-import  cardImg  from './import'
+import  coin  from './implment'
 
 const Card1 = () => 
 (
@@ -30,8 +30,19 @@ const Card1 = () =>
         </div>
     </div>
     <div className="__card1_container-img">
+      <div className='__card1_main-card1'>
       <div className="__card1_red"/>
       <div className="__card1_container-card">
+        <div className="__card1_card_main">
+          <div className="__card1_upper">
+          <p className="__card1-Name">MASTER CARD</p>
+          <img src={coin} alt="card" />
+          </div>
+          <p className="__card1-Name"></p>
+          <p className="__card1-Name"></p>
+
+        </div>
+      </div>
       </div>
   </div>
   </div>

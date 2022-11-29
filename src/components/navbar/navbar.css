@@ -1,6 +1,7 @@
 .__nav-container{
     height: 90px;
     background-color: black;
+    cursor: pointer;
 }
 .__nav-logo{
     position: relative;
@@ -21,6 +22,7 @@
     position: relative;
     font-weight: 400;
     font-size: 16px;
+    cursor: pointer;
 }
 .__nav-reg,
 .__nav-about,
