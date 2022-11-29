@@ -1,4 +1,4 @@
-import coin from '../../assets/card-coin.jpg'
+import cardCoin from '../../assets/card-coin.jpg'
 export{
-    coin
+    cardCoin
 }

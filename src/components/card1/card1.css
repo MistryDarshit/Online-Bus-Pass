@@ -67,3 +67,18 @@
     right: 10.7rem;
     bottom: 13rem;
 }
+.__card1_card_main{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.__card1_upper{
+    display: flex;
+    flex: 1;
+    position: relative;
+    justify-content: start;
+}
+.___card1-img{
+    display: flex;
+    justify-content: end;
+}
