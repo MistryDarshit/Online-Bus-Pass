@@ -79,20 +79,22 @@ body {
     font-size: 16px;
     line-height: 19px;
 }
-._nav-button{
+
+._nav-button {
     position: absolute;
     width: 105px;
     height: 43px;
-    left: 1450px;
+    left: 1330px;
     top: 24px;
     background: #FF3838;
     border: 1px solid #000000;
     border-radius: 8px;
 }
-._nav-button a{
-   color: white;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   padding-top: 10px;
+
+._nav-button a {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
 }
