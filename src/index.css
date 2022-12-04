@@ -15,7 +15,6 @@ code {
   --font-family : 'Inter';
   --font-family2 : 'poppins';
   --blind : 'luminosity';
-  --over : 'overlay';
 }
 * {
   margin: 0px;

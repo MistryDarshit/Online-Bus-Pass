@@ -1,6 +1,6 @@
 import React from "react";
 import "./card1.css";
-import { cardCoin } from "./implment";
+import { cardCoin } from "../implment";
 
 const Card1 = () => (
   <>
@@ -8,7 +8,7 @@ const Card1 = () => (
       <div className="__card1_container">
         <div className="__card1_container-text">
           <h1 className="__card1_continer-text_main">
-            GET YOUR
+            GET YOUR 
             <br />
             BUS PASS
             <br />
@@ -28,6 +28,7 @@ const Card1 = () => (
             </button>
           </div>
         </div>
+        {/* Card Section Was Started here */}
         <div className="__card1_container-img">
           <div className="__card1_main-card1">
             <div className="__card1_red" />
@@ -35,7 +36,7 @@ const Card1 = () => (
               <div className="__card1_card_main">
                 <div className="__card1_container_upper">
                   <div className="__card1_upper">
-                    <p className="__card1-Name">MASTER CARD</p>
+                    <p className="__card1-Name_type">MASTER CARD</p>
                   </div>
                   <div className="___card1-img">
                     <img src={cardCoin} alt="card" />

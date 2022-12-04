@@ -18,11 +18,12 @@
     font-style: normal;
 }
 .__card1_container-text_sub{
-    padding-top: 104px;
+    padding-top: 41px;
+    font-size: 25px;
 }
 .__card1_container-text_sub2{
-    font-size:  32px; 
-    padding-top: 42px;
+    font-size: 32px; 
+    padding-top: 41px;
 }
 .__card1_container-button_start{
     padding-top: 13px;
@@ -36,9 +37,12 @@
 .__card1_container-button{
     padding-top: 43px ;
 }
-.__card1_container-button:hover{
+.__card1_container-button_start:hover{
     cursor: pointer;
+    background-color:#f63838;
+    transition: ease-in;
 }
+/* card Section CSS here started */
 .__card1_container-img{
     display: flex;
     flex: 1;
@@ -81,4 +85,30 @@
 .___card1-img{
     display: flex;
     justify-content: end;
+    position: relative;
+    top: 27px;
+    /* right: 59.3; */
+    right: 59.3px;
+}
+.__card1-Name{
+    position: absolute;
+    bottom: 54px;
+    left: 41px;
+    color:white;
+    mix-blend-mode: overlay;
+}
+.__card1-date{
+    position: absolute;
+    bottom: 40px;
+    right: 58px;
+    color:white;
+    mix-blend-mode: overlay;
+
+}
+.__card1-Name_type{
+        position: absolute;
+    top: 25px;
+    left: 41px;
+    mix-blend-mode: overlay;
+    color: white;
 }

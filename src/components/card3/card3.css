@@ -1,0 +1,114 @@
+.__card3_container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    position: relative;
+    left: 100px;
+    top: 160px;
+}
+.main_container3{
+    background-color: black;
+    color: white;
+    height: 1000px;
+}
+.__card3_continer-text_main3{
+    font-family: var(--font-family);
+    font-size: 55px;
+    white-space: 2px;
+    font-style: normal;
+}
+.__card3_container-text_sub3{
+    padding-top: 104px;
+    font-size: 25px;
+}
+.__card3_container-text_sub23{
+    font-size: 32px; 
+    padding-top: 42px;
+}
+.__card3_container-discount3{
+    width: 449px;
+    height: 45px;
+    background-color: #FFCD1D;
+    margin-top :2.3rem; 
+    border-radius :8px;
+
+}
+.__card3_discount{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    padding-bottom: 5px;
+    font-size: 32px;
+    color: black;
+}
+/* card Section CSS here started */
+.__card3_container-img3{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+}
+.__card3_red3{
+    width: 17.5rem;
+    height: 17.5rem;
+    position: relative;
+    border: 1px solid #000000;
+    background-color: #FFCD1D;
+    border-radius: 50%;
+    filter: blur(9.9rem);
+    right: 0.6rem;
+    top: 7rem;
+}
+.__card3_card_main3{
+    width: 550px;
+    height: 350px;
+    background-color: rgba(217, 217, 217, 0.08);
+    mix-blend-mode: var(--blind);
+    border-radius: 3.1rem;
+}   
+.__card3_container-card3{
+    position: relative;
+    right: 10.7rem;
+    bottom: 13rem;
+}
+.__card3_card_main3{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.__card3_upper3{
+    display: flex;
+    flex: 1;
+    position: relative;
+    justify-content: start;
+}
+.___card3-img3{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: 27px;
+    /* right: 59.3; */
+    right: 59.3px;
+}
+.__card3-Name3{
+    position: absolute;
+    bottom: 54px;
+    left: 41px;
+    color:white;
+    mix-blend-mode: overlay;
+}
+.__card3-date3{
+    position: absolute;
+    bottom: 40px;
+    right: 58px;
+    color:white;
+    mix-blend-mode: overlay;
+
+}
+.__card3-Name_type3{
+        position: absolute;
+    top: 25px;
+    left: 41px;
+    mix-blend-mode: overlay;
+    color: white;
+}
