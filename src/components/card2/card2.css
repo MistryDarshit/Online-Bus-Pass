@@ -1,0 +1,123 @@
+.__card2_container2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    position: relative;
+    left: 100px;
+    top: 160px;
+}
+.main_container2{
+    background-color: black;
+    color: white;
+    height: 1000px;
+}
+.__card2_continer-text_main2{
+    font-family: var(--font-family);
+    font-size: 55px;
+    white-space: 2px;
+    font-style: normal;
+}
+.__card2_container-text_sub2{
+    padding-top: 104px;
+    font-size: 24px;
+}
+.__card2_container-text_sub22{
+    font-size:  32px; 
+    padding-top: 42px;
+}
+.__card2_container-text2{
+    position: absolute;
+    right: 166px;
+}
+.__card2_container-discount2{
+    width: 449px;
+    height: 45px;
+    background-color: #44ff8f;
+    margin-top :2.3rem; 
+    border-radius :8px;
+
+}
+.__card2_discount{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    padding-bottom: 5px;
+    font-size: 32px;
+    color: black;
+}
+/* card Section CSS here started */
+
+.__card2_container-img2{
+    display: flex;
+    flex: 1;
+    justify-content: start;
+}
+.__card2_red2{
+    width: 17.5rem;
+    height: 17.5rem;
+    position: relative;
+    border: 1px solid #000000;
+    background-color: #44ff8f;
+    border-radius: 50%;
+    filter: blur(9.9rem);
+    right: 0.6rem;
+    top: 7rem;
+}
+.__card2_main-card22{
+    position: relative;
+    left: 141px;
+    top: 0px;
+}
+.__card2_card_main2{
+    width: 550px;
+    height: 350px;
+    background-color: rgba(217, 217, 217, 0.08);
+    mix-blend-mode: var(--blind);
+    border-radius: 3.1rem;
+}   
+.__card2_container-card2{
+    position: relative;
+    right: 10.7rem;
+    bottom: 13rem;
+}
+.__card2_card_main{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.__card2_upper2{
+    display: flex;
+    flex: 1;
+    position: relative;
+    justify-content: start;
+}
+.___card2-img2{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    top: 27px;
+    right:49.7px ;
+}
+.__card2-Name2{
+    position: absolute;
+    bottom: 54px;
+    left: 41px;
+    color:white;
+    mix-blend-mode: overlay;
+}
+.__card2-date2{
+    position: absolute;
+    bottom: 40px;
+    right: 58px;
+    color:white;
+    mix-blend-mode: overlay;
+
+}
+.__card2-Name_type2{
+    position: absolute;
+    top: 25px;
+    left: 41px;
+    mix-blend-mode: overlay;
+    color: white;
+}

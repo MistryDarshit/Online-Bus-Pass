@@ -13,5 +13,11 @@ code {
 }
 :root{
   --font-family : 'Inter';
-  --font-family2 : 'poppin';
+  --font-family2 : 'poppins';
+  --blind : 'luminosity';
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-shadow: border-box;
 }
