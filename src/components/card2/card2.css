@@ -97,6 +97,7 @@
     position: absolute;
     top: 27px;
     right:49.7px ;
+    mix-blend-mode: overlay;
 }
 .__card2-Name2{
     position: absolute;

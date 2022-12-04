@@ -47,6 +47,7 @@
     display: flex;
     flex: 1;
     justify-content: end;
+    
 }
 .__card1_red{
     width: 17.5rem;
@@ -89,6 +90,7 @@
     top: 27px;
     /* right: 59.3; */
     right: 59.3px;
+    mix-blend-mode: overlay;
 }
 .__card1-Name{
     position: absolute;

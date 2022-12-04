@@ -89,6 +89,7 @@
     top: 27px;
     /* right: 59.3; */
     right: 59.3px;
+    mix-blend-mode: overlay;
 }
 .__card3-Name3{
     position: absolute;

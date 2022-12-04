@@ -37,14 +37,31 @@
     bottom: 25px;
     right: 35px;
 }
-.__nav_button-login{
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 28px;
-    padding-right: 28px;
-    color: white;
+
+._nav-p4 {
+    position: absolute;
+    width: 105px;
+    height: 19px;
+    left: 1073px;
+    top: 36px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+._nav-button{
+    position: absolute;
+    width: 105px;
+    height: 43px;
+    left: 1450px;
+    top: 24px;
     background: #FF3838;
     border: 1px solid #000000;
     border-radius: 8px;
-
+}
+._nav-button a{
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 10px;
 }
