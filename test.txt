@@ -1,26 +1,49 @@
-<div className='container'> 
-    <div className="_nav-container">
-      <div className="_nav-img">
-        <img src={logo} alt="" />
+npm install @react-icons/all-files --save
+import React from "react";
+import "./footer.css";
+import { face,git,insta,twit } from "../implment";
+
+const footer = () => {
+  return (
+    <>
+      <div className="__footer_container">
+        <div className="__footer_copy-text">
+          <p className="__footer_copyright-text">Copy right All rights reserved at 2022</p>
+          </div>
+          <div className="__footer-center_icon">
+            <ul class="__footer-wrapper">
+              <li class="___footer-icon ___footer-facebook">
+                <span class="__footer-tool">Facebook</span>
+                <span>
+                  <img src={face} alt="" className="__footer-tool2" />
+                </span>
+              </li>
+              <li class="___footer-icon ___footer-twitter">
+                <span class="__footer-tool">Twitter</span>
+                <span>
+                  <img src={twit} alt="" className="__footer-tool2"/>
+                </span>
+              </li>
+              <li class="___footer-icon ___footer-instagram">
+                <span class="__footer-tool">Instagram</span>
+                <span>
+                <img src={insta} alt="" className="__footer-tool2"/>
+                </span>
+              </li>
+              <li class="___footer-icon ___footer-github">
+                <span class="__footer-tool">Github</span>
+                <span>
+                <img src={git} alt="" className="__footer-tool2"/>
+                </span>
+              </li>
+            </ul>
+        </div>
+        <div className="__footer_term-text">
+          <p className="__footer-link"><a href="">Terms & Services</a></p>
+        </div>
       </div>
-    <div className="_nav-links">
-      <div className="_nav-text">
-      <p className="_nav-p1">
-        <a href="#">HOME</a>
-      </p>
-      <p className="_nav-p2">
-        <a href="#">USER RAGISTRETION</a>
-      </p>
-      <p className="_nav-p3">
-        <a href="#">ABOUT US</a>
-      </p>
-      <p className="_nav-p4">
-        <a href="#">CONTECT US</a>
-      </p>
-      </div>
-    </div>
-      <div className="_nav-button">
-        <a href="/">LOGIN</a>
-      </div>
-    </div>
-    </div>
+    </>
+  );
+};
+
+export default footer;
