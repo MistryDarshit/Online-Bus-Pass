@@ -1,0 +1,40 @@
+.__Email_continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.__Email_subcontainer{
+    width: 84.3rem;
+    height: 15.6rem;
+    background-color: white;
+    background: linear-gradient(277.43deg, rgba(255, 255, 255, 0.3) -27.07%, rgba(0, 0, 0, 0.4) 228.45%);
+    margin-bottom: 5rem;
+    border-radius: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 6.6rem;
+}
+.__Email_text-main{
+    font-size: 48px;
+    color: #fff;
+}
+.__Email_text-sub{
+    font-size: 20px;
+}
+.__Email_button{
+padding-left: 32.9rem;
+}
+.__Email_button-iner{
+    width: 200px;
+    height: 60px;
+    border-radius: 8px;
+    background: #FF3838;
+    border: none;
+    font-size: 25px;
+    color: #fff;
+}
+.__Email_button-iner:hover{
+    cursor: pointer;
+}
