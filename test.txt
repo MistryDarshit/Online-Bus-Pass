@@ -1,52 +1,4 @@
 npm install @react-icons/all-files --save
-import React from "react";
-import "./footer.css";
-import { face,git,insta,twit } from "../implment";
-
-const footer = () => {
-  return (
-    <>
-      <div className="__footer_container">
-        <div className="__footer_copy-text">
-          <p className="__footer_copyright-text">Copy right All rights reserved at 2022</p>
-          </div>
-          <div className="__footer-center_icon">
-            <ul class="__footer-wrapper">
-              <li class="___footer-icon ___footer-facebook">
-                <span class="__footer-tool">Facebook</span>
-                <span>
-                  <img src={face} alt="" className="__footer-tool2" />
-                </span>
-              </li>
-              <li class="___footer-icon ___footer-twitter">
-                <span class="__footer-tool">Twitter</span>
-                <span>
-                  <img src={twit} alt="" className="__footer-tool2"/>
-                </span>
-              </li>
-              <li class="___footer-icon ___footer-instagram">
-                <span class="__footer-tool">Instagram</span>
-                <span>
-                <img src={insta} alt="" className="__footer-tool2"/>
-                </span>
-              </li>
-              <li class="___footer-icon ___footer-github">
-                <span class="__footer-tool">Github</span>
-                <span>
-                <img src={git} alt="" className="__footer-tool2"/>
-                </span>
-              </li>
-            </ul>
-        </div>
-        <div className="__footer_term-text">
-          <p className="__footer-link"><a href="">Terms & Services</a></p>
-        </div>
-      </div>
-    </>
-  );
-};
-
-export default footer;
 
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
@@ -61,16 +13,16 @@ export default footer;
   -webkit-tap-highlight-color: transparent;
 }
 
-.__footer-wrapper {
+._footer-wrapper {
   display: inline-flex;
   list-style: none;
 }
-.__footer-tool2{
+._footer-tool2{
   width: 29PX;
   padding-top: 5.2PX;
 }
 
-.__footer-wrapper .___footer-icon {
+._footer-wrapper ._footer-icon {
   position: relative;
   background: #ffffff;
   border-radius: 50%;
@@ -88,7 +40,7 @@ export default footer;
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.__footer-wrapper .__footer-tool {
+._footer-wrapper ._footer-tool {
   position: absolute;
   top: 0;
   font-size: 14px;
@@ -102,7 +54,7 @@ export default footer;
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.__footer-wrapper .__footer-tool::before {
+._footer-wrapper ._footer-tool::before {
   position: absolute;
   content: "";
   height: 8px;
@@ -114,42 +66,42 @@ export default footer;
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.__footer-wrapper .___footer-icon:hover .__footer-tool {
+._footer-wrapper ._footer-icon:hover ._footer-tool {
   top: -45px;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
 
-.__footer-wrapper .___footer-icon:hover span,
-.__footer-wrapper .___footer-icon:hover .__footer-tool {
+._footer-wrapper ._footer-icon:hover span,
+._footer-wrapper ._footer-icon:hover ._footer-tool {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
 }
 
-.__footer-wrapper .___footer-facebook:hover,
-.__footer-wrapper .___footer-facebook:hover .__footer-tool,
-.__footer-wrapper .___footer-facebook:hover .__footer-tool::before {
+._footer-wrapper ._footer-facebook:hover,
+._footer-wrapper ._footer-facebook:hover ._footer-tool,
+._footer-wrapper ._footer-facebook:hover ._footer-tool::before {
   background: #1877F2;
   color: #ffffff;
 }
 
-.__footer-wrapper .___footer-twitter:hover,
-.__footer-wrapper .___footer-twitter:hover .__footer-tool,
-.__footer-wrapper .___footer-twitter:hover .__footer-tool::before {
+._footer-wrapper ._footer-twitter:hover,
+._footer-wrapper ._footer-twitter:hover ._footer-tool,
+._footer-wrapper ._footer-twitter:hover ._footer-tool::before {
   background: #1DA1F2;
   color: #ffffff;
 }
 
-.__footer-wrapper .___footer-instagram:hover,
-.__footer-wrapper .___footer-instagram:hover .__footer-tool,
-.__footer-wrapper .___footer-instagram:hover .__footer-tool::before {
+._footer-wrapper ._footer-instagram:hover,
+._footer-wrapper ._footer-instagram:hover ._footer-tool,
+._footer-wrapper ._footer-instagram:hover ._footer-tool::before {
   background: #E4405F;
   color: #ffffff;
 }
 
-.__footer-wrapper .___footer-github:hover,
-.__footer-wrapper .___footer-github:hover .__footer-tool,
-.__footer-wrapper .___footer-github:hover .__footer-tool::before {
+._footer-wrapper ._footer-github:hover,
+._footer-wrapper ._footer-github:hover ._footer-tool,
+._footer-wrapper ._footer-github:hover ._footer-tool::before {
   background: #333333;
   color: #ffffff;
 }
@@ -162,7 +114,7 @@ export default footer;
 .__footer_copy-text{
   position: relative;
   top: 23px;
- left:42px;
+  left: 42px;
 }
 .__footer_term-text{
   position: relative;

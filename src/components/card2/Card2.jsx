@@ -3,7 +3,7 @@ import React from 'react'
 const Card2 = () => {
   return (
     <div>
-      card3
+      card2
     </div>
   )
 }
