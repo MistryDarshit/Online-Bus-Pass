@@ -107,6 +107,8 @@
   flex-direction: row;
   justify-content: space-between;
   height: 75px;
+  position: relative;
+  top: 50px;
 }
 
 ._footer_copy-text{

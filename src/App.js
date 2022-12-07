@@ -8,7 +8,9 @@ const App = () => {
     
       <Navbar/>
       <Card1/>
-      <Card2/>
+      {/* <Card2/> */}
+      <Card3/>
+
       <Card3/>
       <Email/> 
       <Footer/>
