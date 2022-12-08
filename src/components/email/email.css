@@ -1,3 +1,50 @@
-div{
-    height: 10rem;
+._email-container{
+    background-color: black;
+    height: 20rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 6.5rem;
+    justify-content: space-around;
+
+
+}
+._email-input input{
+    /* padding: 0px 0px;*/
+    width: 500px;
+    height: 50px;
+    /* padding-top: 1.5rem; */
+    color: #93ACAF;
+    background: black;
+    border:0.5px solid #93ACAF;
+    padding-left: 12px;
+    font-size: 25px;
+    border-radius: 3px;
+}
+._email-input label{
+    color: #93ACAF;
+}
+._email-button{
+    width: 150px;
+    height: 50px;
+    background: #FF3838;
+    border-radius: 8px;
+    /* padding-top: 1.5rem; */
+    margin-top: 21px;
+    position: relative;
+    right: 10rem;
+   
+}
+._email-button a{
+    display: flex;
+    flex:1;
+    color:white;
+    justify-content: center;
+    align-items:center;
+    font-size: 20px;
+    padding-top:0.7rem;
+    /* padding-top: 2.3rem; */
+} 
+._email-text{
+    color:#93ACAF;
+    padding-top: 2rem;
 }

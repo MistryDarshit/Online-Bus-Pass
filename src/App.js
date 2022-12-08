@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import {Card1, Card2, Card3, Email, Footer, Navbar} from './components'
+import {Card1, Card2, Card3, Email, Footer, Navbar,Info,Step} from './components'
 
 const App = () => {
   return (
@@ -8,10 +8,10 @@ const App = () => {
     
       <Navbar/>
       <Card1/>
-      {/* <Card2/> */}
+      <Info/>
+      <Card2/>
       <Card3/>
-
-      <Card3/>
+      <Step/>
       <Email/> 
       <Footer/>
   </>

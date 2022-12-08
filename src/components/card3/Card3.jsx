@@ -14,8 +14,8 @@ const Card3 = () => {
           </p>
           <p className="_card3-subtext">
           Submit your documents or id card and <br />
-grab amazing discount on your every <br />
-ride
+          grab amazing discount on your every <br />
+          ride
           </p>
           <p className="_card3-sub">click below and enjoy</p>
           <div className="_card3-button">
