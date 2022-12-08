@@ -16,7 +16,7 @@ const Card2 = () => {
       debounceDelay: 150,
       throttleDelay: 200, 
       offset: 150,
-      delay: 0,
+      delay: 5,
       duration: 1200, 
       easing: 'ease', 
       once: false,
