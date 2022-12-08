@@ -1,5 +1,6 @@
 ._card-container {
-  height: 39.6rem;  /* background-color: black; */
+  height: 40.6rem;
+  /* background-color: black; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;

@@ -4,6 +4,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: relative;
+    top: 230px;
   }
   ._card3-maintext {
     color: #ffcd1d;

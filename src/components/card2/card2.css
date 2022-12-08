@@ -1,10 +1,11 @@
 ._card2-container {
-    height: 59.6rem;
+    height: 40.6rem;
     /* background-color: black; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    top:203px;
+    position: relative;
+    bottom: 50px;
   }
   ._card2-maintext {
     color: #44FF8F;
