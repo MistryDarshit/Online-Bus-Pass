@@ -4,7 +4,6 @@ import { cardCoin } from '../implment'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 
-
 const Card1 = () => {
   useEffect(() =>{
     Aos.init({
@@ -31,7 +30,7 @@ const Card1 = () => {
       <div data-aos="fade-up">
       <div className="_card-container">
         <div className="_card-left_container">
-          <p className="_card-maintext">
+          <p className="_card-maintext" >
           GET YOUR <br />
           BUS PASS <br />
           ONLINE
