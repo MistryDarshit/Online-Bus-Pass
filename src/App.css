@@ -6,6 +6,9 @@ a {
   color : unset;
   text-decoration: none;
 }
+body{
+  background-color: black;
+}
 
 .App-logo {
   height: 40vmin;

@@ -1,9 +1,34 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './card1.css'
 import { cardCoin } from '../implment'
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+
+
 const Card1 = () => {
+  useEffect(() =>{
+    Aos.init({
+      disable: false,
+      startEvent: 'DOMContentLoaded', 
+      initClassName: 'aos-init', 
+      animatedClassName: 'aos-animate', 
+      useClassNames: false, 
+      disableMutationObserver: false, 
+      debounceDelay: 150,
+      throttleDelay: 200, 
+      offset: 150,
+      delay: 0,
+      duration: 1200, 
+      easing: 'ease', 
+      once: false,
+      mirror: false, 
+      anchorPlacement: 'top-bottom',
+    
+    });
+  },[])
   return (
     <>
+      <div data-aos="fade-up">
       <div className="_card-container">
         <div className="_card-left_container">
           <p className="_card-maintext">
@@ -23,6 +48,7 @@ const Card1 = () => {
             <a href="#">Let’s Go &#8594;</a>
           </div>
         </div>
+
         <div className="_card-right_container">
             <div className="_card-red"/>
             <div className="_card-card">
@@ -43,6 +69,7 @@ const Card1 = () => {
                 </div>
             </div>
         </div>
+      </div>
       </div>
     </>
   )
