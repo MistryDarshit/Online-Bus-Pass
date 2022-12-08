@@ -1,30 +1,9 @@
-import React ,{useEffect}from "react";
+import React from "react";
 import { cardCoin } from "../implment";
 import "./card2.css";
-import Aos from 'aos';
-import 'aos/dist/aos.css'
 
 const Card2 = () => {
-  useEffect(() =>{
-    Aos.init({
-      disable: false,
-      startEvent: 'DOMContentLoaded', 
-      initClassName: 'aos-init', 
-      animatedClassName: 'aos-animate', 
-      useClassNames: false, 
-      disableMutationObserver: false, 
-      debounceDelay: 150,
-      throttleDelay: 200, 
-      offset: 150,
-      delay: 5,
-      duration: 1200, 
-      easing: 'ease', 
-      once: false,
-      mirror: false, 
-      anchorPlacement: 'top-bottom',
-    
-    });
-  },[])
+
   return (
     <div data-aos="fade-up">
     <div className="_card2-container">
