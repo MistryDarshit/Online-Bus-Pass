@@ -9,7 +9,7 @@ const Info = () => {
     <div className="_info-container">
       <div className="_info-cards">
         <img src={Downlode} alt="" />
-        <h4 className="contant-head">
+        <h4 className="ani">
             1.2K
         </h4>
         <p className="contant-head">
