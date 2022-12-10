@@ -8,6 +8,9 @@ import user from "../assets/user.png";
 import rout from "../assets/rout.png";
 import partner from "../assets/partner.png";
 import Downlode from "../assets/Downlode.png";
+import signup from "../assets/signup.png";
+import Form from "../assets/Form.png";
+import payment from "../assets/payment.png";
 export{
     cardCoin,
     face,
@@ -18,5 +21,5 @@ export{
     partner,
     rout,
     user,
-    Downlode
+    Downlode,signup,Form,payment
 }
