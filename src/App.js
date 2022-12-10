@@ -9,6 +9,7 @@ const App = () => {
     
       <Navbar/>
       <Card1/>
+      <Info/>
       <Card2/>
       <Card3/>
       <Step/>

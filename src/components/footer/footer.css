@@ -109,6 +109,7 @@
   height: 80px;
   position: relative;
   top: 80px;
+  border-top:1px solid #ffffff;
   background-color: black;
 }
 

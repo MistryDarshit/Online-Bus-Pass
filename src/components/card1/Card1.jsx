@@ -2,15 +2,12 @@ import React from 'react'
 import './card1.css'
 import { cardCoin } from '../implment'
 
-
 const Card1 = () => {
- 
   return (
     <>
-      <div data-aos="fade-up">
       <div className="_card-container">
         <div className="_card-left_container">
-          <p className="_card-maintext" >
+          <p className="_card-maintext">
           GET YOUR <br />
           BUS PASS <br />
           ONLINE
@@ -27,7 +24,6 @@ const Card1 = () => {
             <a href="#">Let’s Go &#8594;</a>
           </div>
         </div>
-
         <div className="_card-right_container">
             <div className="_card-red"/>
             <div className="_card-card">
@@ -48,7 +44,6 @@ const Card1 = () => {
                 </div>
             </div>
         </div>
-      </div>
       </div>
     </>
   )
