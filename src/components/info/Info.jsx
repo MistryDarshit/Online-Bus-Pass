@@ -46,6 +46,7 @@ const Info = () => {
             <p className="contant-head">Partners</p>
           </div>
         </div>
+
       </div>
     </>
   );

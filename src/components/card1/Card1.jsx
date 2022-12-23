@@ -21,7 +21,7 @@ const Card1 = () => {
           So get your pass now
           </p>
           <div className="_card-button">
-            <a href="#">Let’s Go &#8594;</a>
+            <a href="#"> Let'Go &#8594;</a>
           </div>
         </div>
         <div className="_card-right_container">

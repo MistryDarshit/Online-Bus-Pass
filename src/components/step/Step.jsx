@@ -17,8 +17,8 @@ const Step = () => {
           <img src={signup} alt="" />
         </div>
         <div class="_section-text-container">
-          <h2 class="_section-text-main">Shooting Stars</h2>
-          <p class="_section-text-sub">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+          <h2 class="_section-text-main">Signup</h2>
+          <p class="_section-text-sub">Signup for amazinng discount</p>
         </div>
       </div>
     </div>
@@ -32,8 +32,8 @@ const Step = () => {
         <img src={Form} alt="" />
         </div>
         <div class="_section-text-container">
-          <h2 class="_section-text-main">The Catalyzer</h2>
-          <p class="_section-text-sub">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+          <h2 class="_section-text-main">Form</h2>
+          <p class="_section-text-sub">Enter youre details and fill form</p>
         </div>
       </div>
     </div>
@@ -47,8 +47,8 @@ const Step = () => {
         <img src={payment} alt="" />
         </div>
         <div class="_section-text-container">
-          <h2 class="_section-text-main">The 400 Blows</h2>
-          <p class="_section-text-sub">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+          <h2 class="_section-text-main">Paymant</h2>
+          <p class="_section-text-sub">Make youre payment for acess youre pass</p>
         </div>
       </div>
     </div>
@@ -62,8 +62,8 @@ const Step = () => {
         <img src={Acess} alt="" />
         </div>
         <div class="_section-text-container">
-          <h2 class="_section-text-main">Neptune</h2>
-          <p class="_section-text-sub">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+          <h2 class="_section-text-main">Acees</h2>
+          <p class="_section-text-sub">Acess youre pass and enjoy youre ride</p>
         </div>
       </div>
     </div>
