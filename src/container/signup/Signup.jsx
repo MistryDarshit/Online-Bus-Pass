@@ -4,7 +4,7 @@ import './signup.css'
 const Signup = () => {
   return (
     <div>
-      
+      signup
     </div>
   )
 }
