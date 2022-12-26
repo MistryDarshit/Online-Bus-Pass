@@ -1,13 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import "./info.css";
-import { Acess, user, partner, rout, Downlode } from "../implment";
+import {  user, partner, rout, Downlode } from "../implment";
 import CountUp from "react-countup";
-// import ScrollTrigger from "react-scroll-trigger"
-import Scrolltrigger from "scrolltrigger";
+
+
 
 const Info = () => {
-  const [countOn, setCountOn] = useState(false);
-
   return (
     <>
       <div className="_info-main">
@@ -15,12 +13,7 @@ const Info = () => {
           <div className="_info-cards">
             <img src={Downlode} alt="" />
               <h4 className="contant-head">
-            {/* <Scrolltrigger
-              onEnter={() => setCountOn(true)}
-              onExit={() => setCountOn(true)}
-            > */}
                 <CountUp start={0} end={100} duration={2} delay={1}/>K
-            {/* </Scrolltrigger> */}
               </h4>
             <p className="contant-head">Dawnlode</p>
           </div>

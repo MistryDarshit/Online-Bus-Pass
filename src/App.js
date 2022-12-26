@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React from 'react'
 import './App.css'
 import { Home ,About,Cont,Signup,Login} from './container'
 import {
